@@ -1,0 +1,323 @@
+<Settings>
+  <editor>
+    <AdjFuelTableFv value="3" />
+    <AdjFuelTablePercent value="1" />
+    <AdjFuelTableFvSwitch value="300" />
+    <AdjLambdaTable value="0.01" />
+    <AdjIgnTable value="0.25" />
+    <AdjVeTable value="1" />
+    <Mru file0="C:\Users\boule\Desktop\BM Devs\Bins\B18B_Turbo_8Sept2018_GM3Bar_V1.1.3_Neptune.bin" />
+    <graphShown value="true" />
+    <playLogOnOpen value="false" />
+    <recordOnConnection value="false" />
+    <windowState value="2" />
+    <checkUpdateLoad value="true" />
+    <GraphHorizontal value="false" />
+    <smoothingThreshold value="0.03" />
+    <smoothRows value="false" />
+    <rpmBlock value="100" />
+    <rpmPlotTps value="65" />
+    <timePlotLength value="200" />
+    <GraphTypeSelected value="1" />
+    <TraceShowInterpolation value="false" />
+    <GraphSelectType value="0" />
+    <showWarningColor value="true" />
+    <dispTextPrim value="14.25" />
+    <dispTextSec value="8.25" />
+    <followVtecTables value="false" />
+    <followSecondaryMaps value="false" />
+    <smartTrack value="false" />
+    <SplitterDistance value="1074" />
+    <Password />
+    <Protect value="false" />
+    <PasswordHiden value="false" />
+    <CustomGraphSensor value="0" />
+    <CustomGraphColumns value="14" />
+    <binSaveDefault value="true" />
+  </editor>
+  <units>
+    <mbarSeaLevel value="1013" />
+    <vacumn value="0" />
+    <boost value="4" />
+    <temp value="1" />
+    <vss value="0" />
+    <afr value="0" />
+    <fuelCorr value="1" />
+    <usePaSen value="false" />
+  </units>
+  <wideband>
+    <offset value="0" />
+    <index value="1" />
+    <widebandConversion index0="0" index1="1.3" index2="0.3" index3="1" index4="0.7" index5="1" index6="1" index7="0.710204081632653" />
+    <wbInput value="0" />
+    <stoichGas value="14.7" />
+    <stoichLstSel value="1" />
+    <WidebandSerialInput value="false" />
+    <WidebandSerialType value="1" />
+    <WidebandSerialPortIndex value="0" />
+  </wideband>
+  <analog>
+    <ana1enable value="false" />
+    <ana1lbl value="x" />
+    <ana1tbl index0="0" index1="0" index2="5" index3="5" />
+    <ana1dec value="0" />
+    <ana2enable value="false" />
+    <ana2lbl value="x" />
+    <ana2tbl index0="0" index1="0" index2="5" index3="5" />
+    <ana2dec value="0" />
+    <ana3enable value="false" />
+    <ana3lbl value="x" />
+    <ana3tbl index0="0" index1="0" index2="5" index3="5" />
+    <ana3dec value="0" />
+  </analog>
+  <color>
+    <TraceColor value="RGB[-38476]" />
+    <TrailColor value="COLOR[Purple]" />
+    <selectedColor value="COLOR[Blue]" />
+    <dispBackColor value="RGB[-8355712]" />
+    <dispTextColor value="COLOR[Black]" />
+    <ledOnColor value="COLOR[LightGreen]" />
+    <ledOffColor value="COLOR[IndianRed]" />
+    <BackColor2 value="RGB[-3610881]" />
+    <BackColor3 value="RGB[-10170916]" />
+    <RTPColor1 value="COLOR[LightCoral]" />
+    <RTPColor2 value="COLOR[CornflowerBlue]" />
+    <PlotCol1 value="RGB[-156]" />
+    <PlotCol2 value="RGB[-6881386]" />
+    <FuelColor1 value="RGB[-13434881]" />
+    <FuelColor2 value="RGB[-6881386]" />
+    <FuelColor3 value="RGB[-156]" />
+    <FuelColor4 value="RGB[-65536]" />
+    <IgnColor1 value="RGB[-13434881]" />
+    <IgnColor2 value="RGB[-6881386]" />
+    <IgnColor3 value="RGB[-156]" />
+    <IgnColor4 value="RGB[-65536]" />
+    <VEColor1 value="RGB[-34696]" />
+    <VEColor2 value="RGB[-10158081]" />
+    <PercentColorFuel1 value="8" />
+    <PercentColorFuel2 value="38" />
+    <PercentColorIgn value="50" />
+    <Text2D3D value="COLOR[LightGray]" />
+  </color>
+  <datalog>
+    <port value="COM8" />
+    <baud value="38400" />
+    <protocol value="0" />
+    <retries value="3" />
+    <timeout value="100" />
+    <AutoScan value="true" />
+    <datalogLoadAfterRecord value="false" />
+  </datalog>
+  <emulator>
+    <port value="COM6" />
+    <baud value="921600" />
+    <type value="0" />
+    <retries value="3" />
+    <timeout value="100" />
+    <useDt value="false" />
+    <RtUp value="true" />
+    <UploadOnConnect value="false" />
+    <AutoScan value="true" />
+    <AlwaysRt value="true" />
+    <DemonSerial s0="57A9943A2965AB97" />
+  </emulator>
+  <tuner>
+    <sampleRate value="2" />
+    <STD value="1.5" />
+    <afrTargetLow value="1" />
+    <afrTargetLowMbar value="500" />
+    <afrTargetMid value="0.9" />
+    <afrTargetHigh value="0.8" />
+    <afrTargetHighBar value="900" />
+    <fuelAdjMin value="1.5" />
+    <fuelAdjMax value="10" />
+    <fuelAdjP value="0.75" />
+    <fuelAdjPertageNeeded value="50" />
+    <MapTrail value="false" />
+    <FilterAuto value="true" />
+    <tpsMin />
+    <tpsMax value="255" />
+    <afrMin value="0.7" />
+    <afrMax value="1.5000000000000002" />
+    <mapMin value="110" />
+    <mapMax value="3000" />
+    <rpmMin value="0" />
+    <rpmMax value="11000" />
+    <ectMin value="255" />
+    <ectMax value="0" />
+    <iatMin value="255" />
+    <iatMax value="0" />
+    <gear index0="true" index1="true" index2="true" index3="true" index4="true" index5="true" />
+    <hitsDelay value="20" />
+    <lastSampleO2diff value="false" />
+    <checkFuelCut value="true" />
+  </tuner>
+  <overlay>
+    <specialSensor_egt_1 value="0" />
+    <specialSensor_egt_2 value="0" />
+    <specialSensor_egt_3 value="0" />
+    <specialSensor_egt_4 value="0" />
+    <specialSensor_egt_avg value="0" />
+    <specialSensor_BackPress value="0" />
+    <specialSensor_FuelPress value="0" />
+    <specialSensor_Iat value="0" />
+  </overlay>
+  <display>
+    <showWarningColor value="true" />
+    <dispTextPrim value="14.25" />
+    <dispTextSec value="8.25" />
+  </display>
+  <sensors>
+    <rpm name="RPM" desc="Engine speed" warnMin="9000" warnMax="9500" customMin="28" customMax="11000" customINT="True" />
+    <vss name="VSS" desc="Vehicle speed" warnMin="0" warnMax="0" customMin="0" customMax="399" customINT="true" />
+    <gear name="Gear" desc="Vehicle gear" warnMin="0" warnMax="0" customMin="0" customMax="5" customINT="true" />
+    <map name="MAP" desc="Manifold abosolute pressure" warnMin="0" warnMax="0" customMin="0" customMax="3000" customINT="true" />
+    <boost name="Boost" desc="Manifold boost" warnMin="0" warnMax="0" customMin="0" customMax="40" customINT="true" />
+    <pa name="PA" desc="Athmopheric pressure" warnMin="0" warnMax="0" customMin="0" customMax="1000" customINT="true" />
+    <tps name="TPS" desc="Throttle position sensor" warnMin="0" warnMax="0" customMin="0" customMax="100" customINT="true" />
+    <tpsV name="TPS Voltage" desc="Throttle position sensor Voltage" warnMin="0" warnMax="0" customMin="0" customMax="5" customINT="false" />
+    <injDur name="INJ Duration" desc="Opening time of the injectors" warnMin="0" warnMax="0" customMin="0" customMax="5" customINT="false" />
+    <injDuty name="INJ Duty" desc="Injector duty cycle" warnMin="80" warnMax="100" customMin="0" customMax="100" customINT="false" />
+    <injFV name="Fuel Value" desc="The final fuel value" warnMin="0" warnMax="0" customMin="0" customMax="2000" customINT="true" />
+    <ignFnl name="IGN Final" desc="Ignition advance final" warnMin="0" warnMax="0" customMin="-6" customMax="60" customINT="false" />
+    <ignTbl name="IGN Table" desc="Ignition advance from ignition table" warnMin="0" warnMax="0" customMin="-6" customMax="60" customINT="true" />
+    <ect name="ECT" desc="Engine coolant temperature sensor" warnMin="100" warnMax="110" customMin="-40" customMax="140" customINT="true" />
+    <iat name="IAT" desc="Intake air temperature sensor" warnMin="65" warnMax="100" customMin="-40" customMax="140" customINT="true" />
+    <afr name="A/F Ratio" desc="Air fuel ratio" warnMin="17" warnMax="20" customMin="10" customMax="20" customINT="false" />
+    <o2V name="O2 Voltage" desc="The O2 sensor voltage" warnMin="0" warnMax="0" customMin="0" customMax="16" customINT="false" />
+    <batV name="BAT Voltage" desc="Battery voltage" warnMin="0" warnMax="0" customMin="0" customMax="16" customINT="false" />
+    <eldV name="ELD Voltage" desc="Electronic load dector voltage" warnMin="0" warnMax="0" customMin="0" customMax="16" customINT="false" />
+    <knockV name="Knock Level" desc="Knock sensor voltage" warnMin="0" warnMax="0" customMin="0" customMax="5" customINT="false" />
+    <mapV name="MAP Voltage" desc="Manifold air presure sensor voltage" warnMin="0" warnMax="0" customMin="0" customMax="5" customINT="false" />
+    <mil name="MIL" desc="Malfunciton indicator light" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ectFc name="ECT Fuel.c" desc="Fuel correction based on ECT" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <iatFc name="IAT Fuel.c" desc="Fuel correction based on IAT" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <o2Short name="O2 Short" desc="Closeloop fuel correction short term" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <o2Long name="O2 Long" desc="Closeloop fuel correction long term" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <veFc name="VE Fuel.c" desc="VE table fuel correction" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <ectIc name="ECT Ign.c" desc="Ignition correction based on ECT" warnMin="0" warnMax="0" customMin="-6" customMax="60" customINT="false" />
+    <iatIc name="IAT Ign.c" desc="Ignition correction based on IAT" warnMin="0" warnMax="0" customMin="-6" customMax="60" customINT="false" />
+    <frame name="Frame" desc="Datalog frame count. Click on frame cell to change the frame index." warnMin="0" warnMax="0" customMin="0" customMax="9999" customINT="true" />
+    <interval name="Interval" desc="Interval for each frame in milliSeconds" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <duration name="Duration" desc="Duration of recording" warnMin="0" warnMax="0" customMin="0" customMax="60" customINT="true" />
+    <outVts name="VTS" desc="Output Vtec&#xA;Pin A4" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outVtsM name="VTS Maps" desc="Output vtec map switch" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outAc name="ACC" desc="Output Airconditioning&#xA;Pin A15" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outO2h name="O2 Heater" desc="Output to O2 sensor heater&#xA;Pin A6" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outMil name="MIL" desc="Output to check engine indicator&#xA;Pin A13" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outPurge name="PCS" desc="Output to purge canister&#xA;Pin A20" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outFanc name="RadFC" desc="Output to radiator fan&#xA;Pin A12" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outFpump name="FP" desc="Output to fuelpump&#xA;Pin A7" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outIab name="IAB" desc="IAB output&#xA;Pin A17" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inPsp name="PSP" desc="Powersteering switch input&#xA;Pin B8" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inStartS name="Start Signal" desc="Start signal input&#xA;Pin B9" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inParkN name="Park Indicator" desc="Park/neutural indicator input&#xA;On every ecu&#xA;Pin B7" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inSCC name="SCC" desc="Service Check connector input&#xA;Pin D4" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inAccs name="ACSW" desc="Ac request input&#xA;Pin B5" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inBksw name="BKSW" desc="Brake switch input&#xA;Pin D2" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inVtp name="VTP" desc="Vtec pressure input&#xA;Pin D6" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outFuelCut name="Fuel Cut" desc="Fuel cut active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inAtShift1 name="AT Shift1" desc="Automatic shift indicator 1 input&#xA;Only on AT ecu's&#xA;Pin B4" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inAtShift2 name="AT Shift2" desc="Automatic shift indicator 2 input&#xA;Only on AT ecu's&#xA;Pin B3" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gearFc name="Gear Fuel.c" desc="Fuel correction based on Gear" warnMin="0" warnMax="0" customMin="0" customMax="255" customINT="true" />
+    <gearIc name="Gear Ign.c" desc="Ignition correction based on Gear" warnMin="0" warnMax="0" customMin="-6" customMax="60" customINT="false" />
+    <ignitionCut name="Ignition Cut" desc="Ignition Cut active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <boostcutActive name="Boost Cut" desc="Boost cut  active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ftlInput name="FTL Input" desc="3-Step launch control input active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ftsActive name="FTS Active" desc="Full Throttle shift active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <antilagActive name="FTS Anti-Lag" desc="3-Step AntiLag active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ftsClutchInput name="FTS Clutch Input" desc="3-Step full-throttle shift clutch input active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ftlActive name="FTL Active" desc="3-Step launch control active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <sccChecker name="SCC Routine" desc="Service Check Connector rountine active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <outAltCtrl name="ALT Control" desc="Alternator control output" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <inVtsFeedBack name="VTS Feedback" desc="Vtec solenoid feedback" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ebcBaseDuty name="PWM Base Duty" desc="Displays the base duty cycle for the current gear" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <ebcDuty name="PWM Duty" desc="Displays the adjusted duty cycle" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <ebcTarget name="PWM Target" desc="Displays the pwm boost target" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <ebcCurrent name="PWM Current" desc="Displays the current boost" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <ebcInput name="PWM Input Switch" desc="PWM input switch active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ebcActive name="PWM Active" desc="PWM active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <postFuel name="PostFuel Active" desc="Display the status of postfuel routine" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <ebcHiInput name="PWM Hi Switch" desc="PWM high boost settings input active/inactive" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <secMaps name="Secondary Maps" desc="Secondary maps indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <loadType name="Load Type" desc="Current load type indicator" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <test0 name="test0" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <fanCtrl name="Fan Control Output" desc="Output to Fan Control" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo1_in name="GPO 1 Input" desc="General Purpose Input 1" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo1_out name="GPO 1 Output" desc="General Purpose Output 1" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo2_in name="GPO 2 Input" desc="General Purpose Input 2" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo2_out name="GPO 2 Output" desc="General Purpose Output 2" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo3_in name="GPO 3 Input" desc="General Purpose Input 3" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <gpo3_out name="GPO 3 Output" desc="General Purpose Output 3" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <bstStage2 name="Boost Control Stage 2" desc="Boost Control Stage 2" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <bstStage3 name="Boost Control Stage 3" desc="Boost Control Stage 3" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <bstStage4 name="Boost Control Stage 4" desc="Boost Control Stage 4" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <bstInput name="Boost Control Input" desc="Boost Control Input" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <bstActive name="Boost Control Active" desc="Boost Active" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <analog1 name="Analog Input 1" desc="Input on Analog 1" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <analog2 name="Analog Input 2" desc="Input on Analog 2" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <analog3 name="Analog Input 3" desc="Input on Analog 3" warnMin="0" warnMax="0" customMin="0" customMax="0" customINT="true" />
+    <ecuO2V name="O2V Ecu" desc="O2 input on d14" warnMin="0" warnMax="0" customMin="0" customMax="16" customINT="false" />
+    <wbO2V name="O2V Wideband" desc="Wideband O2 voltage" warnMin="0" warnMax="0" customMin="0" customMax="16" customINT="false" />
+    <overheatActive name="Overheat Protection" desc="Overheat Protection active/inactive indicator" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <iacvDuty name="IACV Duty" desc="Idle Air Control Valve Duty" warnMin="0" warnMax="0" customMin="-100" customMax="100" customINT="true" />
+    <leanProtection name="Lean Protection" desc="Bit active if lean codition from lean 1 or lean 2 is detected" warnMin="0" warnMax="0" customMin="0" customMax="1" customINT="true" />
+    <deltaRpm1 name="Delta RPM1" warnMin="0" warnMax="0" customMin="0" customMax="11000" customINT="true" />
+    <deltaRpm2 name="Delta RPM2" warnMin="0" warnMax="0" customMin="0" customMax="11000" customINT="true" />
+    <afrTrg name="AFR Target" desc="Air Fuel Ratio Target" warnMin="0" warnMax="0" customMin="10" customMax="20" customINT="false" />
+    <deltaVss name="Delta VSS" warnMin="0" warnMax="0" customMin="0" customMax="399" customINT="true" />
+  </sensors>
+  <WindowsPos>
+    <Display_x value="0" />
+    <Display_y value="0" />
+    <emulator_menu_x value="5" />
+    <emulator_menu_y value="3" />
+    <logGraphs_x value="3" />
+    <logGraphs_y value="3" />
+    <logGrid_x value="0" />
+    <logGrid_y value="71" />
+    <parameters_x value="686" />
+    <parameters_y value="315" />
+    <tables_x value="254" />
+    <tables_y value="129" />
+    <tunerToolStrip_x value="3" />
+    <tunerToolStrip_y value="0" />
+    <Debug_x value="30" />
+    <Debug_y value="30" />
+    <errorCodes_x />
+    <errorCodes_y />
+  </WindowsPos>
+  <WindowsSize>
+    <logGraphs_w value="1511" />
+    <logGraphs_h value="483" />
+    <logGrid_w value="369" />
+    <logGrid_h value="677" />
+    <parameters_w value="858" />
+    <parameters_h value="570" />
+    <tables_w value="1511" />
+    <tables_h value="338" />
+    <tunerToolStrip_w value="150" />
+    <tunerToolStrip_h value="150" />
+    <Debug_w value="369" />
+    <Debug_h value="148" />
+    <Display_w value="1525" />
+    <Display_h value="86" />
+    <errorCodes_w value="369" />
+    <errorCodes_h value="148" />
+  </WindowsSize>
+  <pages>
+    <Tabs3_Show value="true" />
+    <Tabs4_Show value="true" />
+    <Tabs3_Split value="450" />
+    <Tabs4_Split value="689" />
+    <Tabs1_Names value="Datalog,Files," />
+    <Tabs2_Names value="Tables,Parameters," />
+    <Tabs3_Names value="Graph," />
+    <Tabs4_Names value="CEL,Debug," />
+    <Parameter_Splitter value="270" />
+    <Tabs1_Selected />
+    <Tabs2_Selected />
+    <Tabs3_Selected />
+    <Tabs4_Selected />
+  </pages>
+</Settings>
